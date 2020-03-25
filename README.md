@@ -1,5 +1,5 @@
 # CTF-Helper
-The custom scripts I've made to complete capture the flag challenges quicker. Everything is contained in a single file, "myfinal.py". "requests" and "paramiko" are the only required external libraries. These can be installed by "pip install requests paramiko".
+The custom scripts I've made to complete capture the flag challenges quicker. Everything is contained in a single file, "helper.py". "requests" and "paramiko" are the only required external libraries. These can be installed by "pip install requests paramiko".
 
 ## What does it do?
 These scripts are highly targeted toward a certain machine but for some tools, a target may be specified with certain parameters. These tools include the following
