@@ -1,4 +1,4 @@
-# Automation-Final
+# CTF-Helper
 The custom scripts I've made to complete capture the flag challenges quicker. Everything is contained in a single file, "myfinal.py". "requests" and "paramiko" are the only required external libraries. These can be installed by "pip install requests paramiko".
 
 ## What does it do?
