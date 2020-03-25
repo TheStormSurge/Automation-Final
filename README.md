@@ -10,4 +10,4 @@ These scripts are highly targeted toward a certain machine but for some tools, a
 5. A /var/logs/auth.log IP deleter 
 6. Quick Info
 7. Malware Scanner (An API Key MUST be specified at beginning of file)
-8. XOR Decryption (Highly tagreted based on cipher text and key) 
+8. XOR Decryption (Highly tagreted based on cipher text and key length) 
