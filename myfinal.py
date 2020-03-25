@@ -308,39 +308,39 @@ while(True):
             host = input("ENTER A HOST TO SCAN:")
             portScan(host)
 
-        if (cmd == "2"): #/backup/flag.txt CNS{0421008445828ceb46f496700a5fa65e}
+        if (cmd == "2"): #/backup/flag.txt 
 
             print("Directory transversal via file")
             dirtest("http://10.14.3.10")
 
-        if (cmd =="5"): #OS Defense HIDDEN FLAG: CNS{feb4570b9c8615faeb954b2988645c93} from root's crontab -l
+        if (cmd =="5"): #OS Defense 
             print("OS DEFENSE(Linux Systems Only)")
             try:
                 osDef()
             except:
                 print("Error. Command failed\n")
         if(cmd == "3"):
-            print("FLAG FINDER")# CNS{912ec803b2ce49e4a541068d4q95ab57p}
+            print("FLAG FINDER")# 
             homepage("http://10.14.3.10")
 
         if(cmd == "4"):
-            print("SSH BRUTE FORCE(May take some time. Be patient!") #User:helpdesk Password:shadow, User:root Password:password
+            print("SSH BRUTE FORCE(May take some time. Be patient!") 
             sshBruteForce("10.14.3.10")
             print("\n")
 
         if (cmd == "8"):
-            print("XOR DECRYPTOR(cipher text is hardcoded based on pattern)") #CNS{664bcfca6ffc3f6b524dadc43cb49b08}
+            print("XOR DECRYPTOR(cipher text is hardcoded based on pattern)") 
             xorDecrypt()
             print("\n")
 
-        if (cmd == "6"): #deletes my ip (172.24.3.1) in /var/log/auth.log
+        if (cmd == "6"): # /var/log/auth.log
 
             print("Log Deleter: Deletes all auth.log entries containing given IP")
             myip = input("What IP would you like to purge?:")
             logDeleter(myip)
 
 
-        if (cmd == "1"): #Peforms enumeration from blind SQL testing server. CNS{3AEBDDAEED47204393C3F2853AD80F62}
+        if (cmd == "1"): #Peforms enumeration from blind SQL testing server. 
             print("BLIND SQL TEST")
             address = input("Please enter the web address of the target flag (flag.php):")
             blindSQL(address)
@@ -348,7 +348,7 @@ while(True):
         if (cmd == "9"):
             break
             
-        if(cmd == "7"): # malware13 is the virus 
+        if(cmd == "7"): # 
             print("ANTI-VIRUS")
             for i in filelist:
                 while (True):
