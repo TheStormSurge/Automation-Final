@@ -12,4 +12,4 @@ These scripts are highly targeted toward a certain machine but for some tools, a
 6. SSH Brute Force (Dictionary) 
 7. Quick Info (Displays system info, as well as quickly executes and outputs the result of Linux commands)
 8. Malware Scanner (A VirusTotal API Key MUST be specified at beginning of file)
-9. XOR Decryption (Highly tagreted based on cipher text and key length) 
+9. XOR Decryption (Highly targeted based on cipher text and key length) 
